@@ -13,7 +13,7 @@ RStudio Cloud에 대한 소개와 간단한 실습
 
 1. 
 
-# References
+### References
 
 1.  David Robinson (2017). [unvotes](https://CRAN.R-project.org/package=unvotes): United Nations General Assembly Voting Data. R package version 0.2.0.
 2.  Erik Voeten "Data and Analyses of Voting in the UN General Assembly" Routledge Handbook of International Organization, edited by Bob Reinalda (published May 27, 2013).
