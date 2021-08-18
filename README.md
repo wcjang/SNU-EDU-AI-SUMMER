@@ -3,4 +3,10 @@
 
 RStudio Cloud에 대한 소개와 간단한 실습
 
+## Example 1 : COVID-19
 
+## 연습문제 1: UN 국가별 투표
+
+## Exampe 2 : Shiny 소개
+
+## 연습문제 2
