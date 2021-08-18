@@ -1,1 +1,1 @@
-# SNU-EDU-AI-SUMMER
+# AI 여름학교 빅데이터 기초
