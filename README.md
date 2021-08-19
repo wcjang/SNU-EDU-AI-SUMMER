@@ -9,7 +9,9 @@ RStudio Cloud에 대한 소개와 간단한 실습
 
 다음자료는 R package **coronavirus** 에서 추출한 코로나-19 사망율 자료이다. 이 자료은 원래 존스홉킨스 대학 Center for Systems Science and Engineering Coronavirus repository에서 추출한 것이다. 
 
- 
+## Run R code
+
+Open **COVID-19.Rmd** and click **knit**
  
 ## Visualisation
 
@@ -56,9 +58,12 @@ ggplot(data = country_data,
 
 1. 데이터 시각화를 통해 주요 안건별 각 나라의 투표성향이 시간이 흘러감에 따라 어떻게 변하고 있는지 알아보자.
 2. 선진국과 개발도상국사이의 투표패턴을 비교해보자.
-3. 주어진 코드를 변형해서 관심이 있는 국가들의 패턴을 알아보자. 이때 국가이름은 마지막에 있는 
+3. 주어진 코드를 변형해서 관심이 있는 국가들의 패턴을 알아보자. 이때 국가이름은 마지막에 있는 Appendix에서 찾으면 된다. 
 
 ### R code
+
+
+Open **COVID-19.Rmd** and click **knit**
 
 아래 코드에서 Country 부분의 이름를 바꾸어 가면서 코드를 실행해 보자.
 
@@ -92,4 +97,23 @@ unvotes %>%
 
 ## Exampe 2 : Shiny 소개
 
+Shiny App은  웹페이지를 통하여 interactive data visualization을 보여주는 도구다. 크게 'User inferface", "Server Function" 두가지로 구성이 된다. 
+
+### 01-template.R 
+
+먼저 01-template.R을 열고 Run App을 클릭하자.fluidPage에 들어가는 문장을 바꾸어 가면 실행해 보자.
+
+### 02-hist.R 
+
+02-hist.R을 이용하여 표준정규분포의 히스트그램을 그려보자.
+
+1. 생성되는 자료의 갯수의 최대숫자를 늘여보아라.
+
+
 ## 연습문제 2 : Shiny 실습
+
+피셔의 붓꽃자료를 이용한 군집분석(clustering analysis)를 시행해보자. 자료에는 총 5개의 변수 (Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, Species)가 있다. 군집의 갯수와 x,y축에 해당하는 변수들을 바꾸어 가면서 어떤 변수들이 최적의 군집분석 결과를 제시하는지 살펴보자.
+
+1. 군집의 갯수의 번위를 조정해보아라. 
+2. code의 37번째줄의 pch, cex, lwd의 숫자를 바꾸어보고 어떤결과가 나오는지 살펴보라.
+3. R의 help기능을 이용하여 2번 질문의 답을 알아보자.
